@@ -1,0 +1,515 @@
+NO,KODEBARANG,NAMABARANG,USIABARANG,TAHUNMASUK,JUMLAHPEMAKAIAN,HARGA,TOTALBARANG,KATEGORI,status_kelayakan
+1,LCD1,Focusing Screen/Layar LCD Projector,2,2022,22,400000,2,Elektronik,Layak
+2,LCD2,Focusing Screen/Layar LCD Projector,2,2022,33,400000,2,Elektronik,Layak
+3,LCDP1,LCD Proyector/Infocus,2,2022,10,4350000,7,Elektronik,Tidak Layak
+4,LCDP2,LCD Proyector/Infocus,2,2022,11,4350000,7,Elektronik,Tidak Layak
+5,LCDP3,LCD Proyector/Infocus,2,2022,50,4350000,7,Elektronik,Tidak Layak
+6,LCDP4,LCD Proyector/Infocus,2,2022,50,4350000,7,Elektronik,Tidak Layak
+7,LCDP5,LCD Proyector/Infocus,2,2022,153,4350000,7,Elektronik,Layak
+8,LCDP6,LCD Proyector/Infocus,2,2022,203,4350000,7,Elektronik,Layak
+9,LCDP7,LCD Proyector/Infocus,2,2022,2,4350000,7,Elektronik,Tidak Layak
+10,KP1,Kursi Kerja (Putar),2,2022,2,360000,25,Furnitur,Layak
+11,KP2,Kursi Kerja (Putar),2,2022,4,360000,25,Furnitur,Layak
+12,KP3,Kursi Kerja (Putar),2,2022,56,360000,25,Furnitur,Layak
+13,KP4,Kursi Kerja (Putar),2,2022,22,360000,25,Furnitur,Layak
+14,KP5,Kursi Kerja (Putar),2,2022,14,360000,25,Furnitur,Layak
+15,KP6,Kursi Kerja (Putar),2,2022,17,360000,25,Furnitur,Layak
+16,KP7,Kursi Kerja (Putar),2,2022,13,360000,25,Furnitur,Layak
+17,KP8,Kursi Kerja (Putar),2,2022,5,360000,25,Furnitur,Layak
+18,KP9,Kursi Kerja (Putar),2,2022,8,360000,25,Furnitur,Layak
+19,KP10,Kursi Kerja (Putar),2,2022,7,360000,25,Furnitur,Layak
+20,KP11,Kursi Kerja (Putar),2,2022,10,360000,25,Furnitur,Layak
+21,KP12,Kursi Kerja (Putar),2,2022,10,360000,25,Furnitur,Layak
+22,KP13,Kursi Kerja (Putar),2,2022,3,360000,25,Furnitur,Layak
+23,KP14,Kursi Kerja (Putar),2,2022,6,360000,25,Furnitur,Layak
+24,KP15,Kursi Kerja (Putar),2,2022,24,360000,25,Furnitur,Layak
+25,KP16,Kursi Kerja (Putar),2,2022,1,360000,25,Furnitur,Layak
+26,KP17,Kursi Kerja (Putar),2,2022,0,360000,25,Furnitur,Layak
+27,KP18,Kursi Kerja (Putar),2,2022,0,360000,25,Furnitur,Layak
+28,KP19,Kursi Kerja (Putar),2,2022,6,360000,25,Furnitur,Layak
+29,KP20,Kursi Kerja (Putar),2,2022,5,360000,25,Furnitur,Layak
+30,KP21,Kursi Kerja (Putar),2,2022,8,360000,25,Furnitur,Layak
+31,KP22,Kursi Kerja (Putar),2,2022,3,360000,25,Furnitur,Layak
+32,KP23,Kursi Kerja (Putar),2,2022,5,360000,25,Furnitur,Layak
+33,KP24,Kursi Kerja (Putar),2,2022,4,360000,25,Furnitur,Layak
+34,KP25,Kursi Kerja (Putar),2,2022,3,360000,25,Furnitur,Layak
+35,CB1,Chrome Book,2,2022,60,1650000,337,Elektronik,Layak
+36,CB2,Chrome Book,2,2022,60,1650000,337,Elektronik,Layak
+37,CB3,Chrome Book,2,2022,40,1650000,337,Elektronik,Tidak Layak
+38,CB4,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+39,CB5,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+40,CB6,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+41,CB7,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+42,CB8,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+43,CB9,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+44,CB10,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+45,CB11,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+46,CB12,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+47,CB13,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+48,CB14,Chrome Book,2,2022,12,1650000,337,Elektronik,Tidak Layak
+49,CB15,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+50,CB16,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+51,CB17,Chrome Book,2,2022,7,1650000,337,Elektronik,Tidak Layak
+52,CB18,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+53,CB19,Chrome Book,2,2022,18,1650000,337,Elektronik,Tidak Layak
+54,CB20,Chrome Book,2,2022,14,1650000,337,Elektronik,Tidak Layak
+55,CB21,Chrome Book,2,2022,16,1650000,337,Elektronik,Tidak Layak
+56,CB22,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+57,CB23,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+58,CB24,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+59,CB25,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+60,CB26,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+61,CB27,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+62,CB28,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+63,CB29,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+64,CB30,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+65,CB31,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+66,CB32,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+67,CB33,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+68,CB34,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+69,CB35,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+70,CB36,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+71,CB37,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+72,CB38,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+73,CB39,Chrome Book,2,2022,9,1650000,337,Elektronik,Tidak Layak
+74,CB40,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+75,CB41,Chrome Book,2,2022,6,1650000,337,Elektronik,Tidak Layak
+76,CB42,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+77,CB43,Chrome Book,2,2022,7,1650000,337,Elektronik,Tidak Layak
+78,CB44,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+79,CB45,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+80,CB46,Chrome Book,2,2022,11,1650000,337,Elektronik,Tidak Layak
+81,CB47,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+82,CB48,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+83,CB49,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+84,CB50,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+85,CB51,Chrome Book,2,2022,7,1650000,337,Elektronik,Tidak Layak
+86,CB52,Chrome Book,2,2022,8,1650000,337,Elektronik,Tidak Layak
+87,CB53,Chrome Book,2,2022,8,1650000,337,Elektronik,Tidak Layak
+88,CB54,Chrome Book,2,2022,8,1650000,337,Elektronik,Tidak Layak
+89,CB55,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+90,CB56,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+91,CB57,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+92,CB58,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+93,CB59,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+94,CB60,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+95,CB61,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+96,CB62,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+97,CB63,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+98,CB64,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+99,CB65,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+100,CB66,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+101,CB67,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+102,CB68,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+103,CB69,Chrome Book,2,2022,70,1650000,337,Elektronik,Layak
+104,CB70,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+105,CB71,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+106,CB72,Chrome Book,2,2022,9,1650000,337,Elektronik,Tidak Layak
+107,CB73,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+108,CB74,Chrome Book,2,2022,7,1650000,337,Elektronik,Tidak Layak
+109,CB75,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+110,CB76,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+111,CB77,Chrome Book,2,2022,7,1650000,337,Elektronik,Tidak Layak
+112,CB78,Chrome Book,2,2022,7,1650000,337,Elektronik,Tidak Layak
+113,CB79,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+114,CB80,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+115,CB81,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+116,CB82,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+117,CB83,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+118,CB84,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+119,CB85,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+120,CB86,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+121,CB87,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+122,CB88,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+123,CB89,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+124,CB90,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+125,CB91,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+126,CB92,Chrome Book,2,2022,78,1650000,337,Elektronik,Layak
+127,CB93,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+128,CB94,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+129,CB95,Chrome Book,2,2022,6,1650000,337,Elektronik,Tidak Layak
+130,CB96,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+131,CB97,Chrome Book,2,2022,6,1650000,337,Elektronik,Tidak Layak
+132,CB98,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+133,CB99,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+134,CB100,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+135,CB101,Chrome Book,2,2022,6,1650000,337,Elektronik,Tidak Layak
+136,CB102,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+137,CB103,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+138,CB104,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+139,CB105,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+140,CB106,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+141,CB107,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+142,CB108,Chrome Book,2,2022,7,1650000,337,Elektronik,Tidak Layak
+143,CB109,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+144,CB110,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+145,CB111,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+146,CB112,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+147,CB113,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+148,CB114,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+149,CB115,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+150,CB116,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+151,CB117,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+152,CB118,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+153,CB119,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+154,CB120,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+155,CB121,Chrome Book,2,2022,8,1650000,337,Elektronik,Tidak Layak
+156,CB122,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+157,CB123,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+158,CB124,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+159,CB125,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+160,CB126,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+161,CB127,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+162,CB128,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+163,CB129,Chrome Book,2,2022,9,1650000,337,Elektronik,Tidak Layak
+164,CB130,Chrome Book,2,2022,8,1650000,337,Elektronik,Tidak Layak
+165,CB131,Chrome Book,2,2022,7,1650000,337,Elektronik,Tidak Layak
+166,CB132,Chrome Book,2,2022,6,1650000,337,Elektronik,Tidak Layak
+167,CB133,Chrome Book,2,2022,6,1650000,337,Elektronik,Tidak Layak
+168,CB134,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+169,CB135,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+170,CB136,Chrome Book,2,2022,8,1650000,337,Elektronik,Tidak Layak
+171,CB137,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+172,CB138,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+173,CB139,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+174,CB140,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+175,CB141,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+176,CB142,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+177,CB143,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+178,CB144,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+179,CB145,Chrome Book,2,2022,9,1650000,337,Elektronik,Tidak Layak
+180,CB146,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+181,CB147,Chrome Book,2,2022,9,1650000,337,Elektronik,Tidak Layak
+182,CB148,Chrome Book,2,2022,11,1650000,337,Elektronik,Tidak Layak
+183,CB149,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+184,CB150,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+185,CB151,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+186,CB152,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+187,CB153,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+188,CB154,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+189,CB155,Chrome Book,2,2022,9,1650000,337,Elektronik,Tidak Layak
+190,CB156,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+191,CB157,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+192,CB158,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+193,CB159,Chrome Book,2,2022,7,1650000,337,Elektronik,Tidak Layak
+194,CB160,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+195,CB161,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+196,CB162,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+197,CB163,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+198,CB164,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+199,CB165,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+200,CB166,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+201,CB167,Chrome Book,2,2022,6,1650000,337,Elektronik,Tidak Layak
+202,CB168,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+203,CB169,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+204,CB170,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+205,CB171,Chrome Book,2,2022,8,1650000,337,Elektronik,Tidak Layak
+206,CB172,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+207,CB173,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+208,CB174,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+209,CB175,Chrome Book,2,2022,13,1650000,337,Elektronik,Tidak Layak
+210,CB176,Chrome Book,2,2022,10,1650000,337,Elektronik,Tidak Layak
+211,CB177,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+212,CB178,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+213,CB179,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+214,CB180,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+215,CB181,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+216,CB182,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+217,CB183,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+218,CB184,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+219,CB185,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+220,CB186,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+221,CB187,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+222,CB188,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+223,CB189,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+224,CB190,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+225,CB191,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+226,CB192,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+227,CB193,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+228,CB194,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+229,CB195,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+230,CB196,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+231,CB197,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+232,CB198,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+233,CB199,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+234,CB200,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+235,CB201,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+236,CB202,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+237,CB203,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+238,CB204,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+239,CB205,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+240,CB206,Chrome Book,2,2022,110,1650000,337,Elektronik,Layak
+241,CB207,Chrome Book,2,2022,49,1650000,337,Elektronik,Tidak Layak
+242,CB208,Chrome Book,2,2022,49,1650000,337,Elektronik,Tidak Layak
+243,CB209,Chrome Book,2,2022,49,1650000,337,Elektronik,Tidak Layak
+244,CB210,Chrome Book,2,2022,49,1650000,337,Elektronik,Tidak Layak
+245,CB211,Chrome Book,2,2022,49,1650000,337,Elektronik,Tidak Layak
+246,CB212,Chrome Book,2,2022,49,1650000,337,Elektronik,Tidak Layak
+247,CB213,Chrome Book,2,2022,49,1650000,337,Elektronik,Tidak Layak
+248,CB214,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+249,CB215,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+250,CB216,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+251,CB217,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+252,CB218,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+253,CB219,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+254,CB220,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+255,CB221,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+256,CB222,Chrome Book,2,2022,6,1650000,337,Elektronik,Tidak Layak
+257,CB223,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+258,CB224,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+259,CB225,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+260,CB226,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+261,CB227,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+262,CB228,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+263,CB229,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+264,CB230,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+265,CB231,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+266,CB232,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+267,CB233,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+268,CB234,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+269,CB235,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+270,CB236,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+271,CB237,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+272,CB238,Chrome Book,2,2022,43,1650000,337,Elektronik,Tidak Layak
+273,CB239,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+274,CB240,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+275,CB241,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+276,CB242,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+277,CB243,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+278,CB244,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+279,CB245,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+280,CB246,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+281,CB247,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+282,CB248,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+283,CB249,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+284,CB250,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+285,CB251,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+286,CB252,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+287,CB253,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+288,CB254,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+289,CB255,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+290,CB256,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+291,CB257,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+292,CB258,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+293,CB259,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+294,CB260,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+295,CB261,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+296,CB262,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+297,CB263,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+298,CB264,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+299,CB265,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+300,CB266,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+301,CB267,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+302,CB268,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+303,CB269,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+304,CB270,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+305,CB271,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+306,CB272,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+307,CB273,Chrome Book,2,2022,10,1650000,337,Elektronik,Tidak Layak
+308,CB274,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+309,CB275,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+310,CB276,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+311,CB277,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+312,CB278,Chrome Book,2,2022,8,1650000,337,Elektronik,Tidak Layak
+313,CB279,Chrome Book,2,2022,7,1650000,337,Elektronik,Tidak Layak
+314,CB280,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+315,CB281,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+316,CB282,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+317,CB283,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+318,CB284,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+319,CB285,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+320,CB286,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+321,CB287,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+322,CB288,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+323,CB289,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+324,CB290,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+325,CB291,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+326,CB292,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+327,CB293,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+328,CB294,Chrome Book,2,2022,4,1650000,337,Elektronik,Tidak Layak
+329,CB295,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+330,CB296,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+331,CB297,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+332,CB298,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+333,CB299,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+334,CB300,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+335,CB301,Chrome Book,2,2022,30,1650000,337,Elektronik,Tidak Layak
+336,CB302,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+337,CB303,Chrome Book,2,2022,36,1650000,337,Elektronik,Tidak Layak
+338,CB304,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+339,CB305,Chrome Book,2,2022,10,1650000,337,Elektronik,Tidak Layak
+340,CB306,Chrome Book,2,2022,55,1650000,337,Elektronik,Layak
+341,CB307,Chrome Book,2,2022,54,1650000,337,Elektronik,Layak
+342,CB308,Chrome Book,2,2022,50,1650000,337,Elektronik,Tidak Layak
+343,CB309,Chrome Book,2,2022,6,1650000,337,Elektronik,Tidak Layak
+344,CB310,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+345,CB311,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+346,CB312,Chrome Book,2,2022,52,1650000,337,Elektronik,Layak
+347,CB313,Chrome Book,2,2022,6,1650000,337,Elektronik,Tidak Layak
+348,CB314,Chrome Book,2,2022,24,1650000,337,Elektronik,Tidak Layak
+349,CB315,Chrome Book,2,2022,24,1650000,337,Elektronik,Tidak Layak
+350,CB316,Chrome Book,2,2022,24,1650000,337,Elektronik,Tidak Layak
+351,CB317,Chrome Book,2,2022,24,1650000,337,Elektronik,Tidak Layak
+352,CB318,Chrome Book,2,2022,24,1650000,337,Elektronik,Tidak Layak
+353,CB319,Chrome Book,2,2022,24,1650000,337,Elektronik,Tidak Layak
+354,CB320,Chrome Book,2,2022,24,1650000,337,Elektronik,Tidak Layak
+355,CB321,Chrome Book,2,2022,24,1650000,337,Elektronik,Tidak Layak
+356,CB322,Chrome Book,2,2022,24,1650000,337,Elektronik,Tidak Layak
+357,CB323,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+358,CB324,Chrome Book,2,2022,12,1650000,337,Elektronik,Tidak Layak
+359,CB325,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+360,CB326,Chrome Book,2,2022,3,1650000,337,Elektronik,Tidak Layak
+361,CB327,Chrome Book,2,2022,5,1650000,337,Elektronik,Tidak Layak
+362,CB328,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+363,CB329,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+364,CB330,Chrome Book,2,2022,1,1650000,337,Elektronik,Tidak Layak
+365,CB331,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+366,CB332,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+367,CB333,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+368,CB334,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+369,CB335,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+370,CB336,Chrome Book,2,2022,0,1650000,337,Elektronik,Tidak Layak
+371,CB337,Chrome Book,2,2022,2,1650000,337,Elektronik,Tidak Layak
+372,TB1,Tablet PC,1,2023,2,1255000,87,Elektronik,Tidak Layak
+373,TB2,Tablet PC,1,2023,1,1255000,87,Elektronik,Tidak Layak
+374,TB3,Tablet PC,1,2023,100,1255000,87,Elektronik,Layak
+375,TB4,Tablet PC,1,2023,52,1255000,87,Elektronik,Layak
+376,TB5,Tablet PC,1,2023,52,1255000,87,Elektronik,Layak
+377,TB6,Tablet PC,1,2023,52,1255000,87,Elektronik,Layak
+378,TB7,Tablet PC,1,2023,52,1255000,87,Elektronik,Layak
+379,TB8,Tablet PC,1,2023,52,1255000,87,Elektronik,Layak
+380,TB9,Tablet PC,1,2023,52,1255000,87,Elektronik,Layak
+381,TB10,Tablet PC,1,2023,52,1255000,87,Elektronik,Layak
+382,TB11,Tablet PC,1,2023,52,1255000,87,Elektronik,Layak
+383,TB12,Tablet PC,1,2023,52,1255000,87,Elektronik,Layak
+384,TB13,Tablet PC,1,2023,52,1255000,87,Elektronik,Layak
+385,TB14,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+386,TB15,Tablet PC,1,2023,33,1255000,87,Elektronik,Tidak Layak
+387,TB16,Tablet PC,1,2023,33,1255000,87,Elektronik,Tidak Layak
+388,TB17,Tablet PC,1,2023,33,1255000,87,Elektronik,Tidak Layak
+389,TB18,Tablet PC,1,2023,2,1255000,87,Elektronik,Tidak Layak
+390,TB19,Tablet PC,1,2023,2,1255000,87,Elektronik,Tidak Layak
+391,TB20,Tablet PC,1,2023,2,1255000,87,Elektronik,Tidak Layak
+392,TB21,Tablet PC,1,2023,1,1255000,87,Elektronik,Tidak Layak
+393,TB22,Tablet PC,1,2023,3,1255000,87,Elektronik,Tidak Layak
+394,TB23,Tablet PC,1,2023,3,1255000,87,Elektronik,Tidak Layak
+395,TB24,Tablet PC,1,2023,1,1255000,87,Elektronik,Tidak Layak
+396,TB25,Tablet PC,1,2023,2,1255000,87,Elektronik,Tidak Layak
+397,TB26,Tablet PC,1,2023,100,1255000,87,Elektronik,Layak
+398,TB27,Tablet PC,1,2023,3,1255000,87,Elektronik,Tidak Layak
+399,TB28,Tablet PC,1,2023,1,1255000,87,Elektronik,Tidak Layak
+400,TB29,Tablet PC,1,2023,1,1255000,87,Elektronik,Tidak Layak
+401,TB30,Tablet PC,1,2023,1,1255000,87,Elektronik,Tidak Layak
+402,TB31,Tablet PC,1,2023,1,1255000,87,Elektronik,Tidak Layak
+403,TB32,Tablet PC,1,2023,1,1255000,87,Elektronik,Tidak Layak
+404,TB33,Tablet PC,1,2023,1,1255000,87,Elektronik,Tidak Layak
+405,TB34,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+406,TB35,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+407,TB36,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+408,TB37,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+409,TB38,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+410,TB39,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+411,TB40,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+412,TB41,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+413,TB42,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+414,TB43,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+415,TB44,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+416,TB45,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+417,TB46,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+418,TB47,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+419,TB48,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+420,TB49,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+421,TB50,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+422,TB51,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+423,TB52,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+424,TB53,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+425,TB54,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+426,TB55,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+427,TB56,Tablet PC,1,2023,55,1255000,87,Elektronik,Layak
+428,TB57,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+429,TB58,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+430,TB59,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+431,TB60,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+432,TB61,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+433,TB62,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+434,TB63,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+435,TB64,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+436,TB65,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+437,TB66,Tablet PC,1,2023,34,1255000,87,Elektronik,Tidak Layak
+438,TB67,Tablet PC,1,2023,34,1255000,87,Elektronik,Tidak Layak
+439,TB68,Tablet PC,1,2023,34,1255000,87,Elektronik,Tidak Layak
+440,TB69,Tablet PC,1,2023,34,1255000,87,Elektronik,Tidak Layak
+441,TB70,Tablet PC,1,2023,34,1255000,87,Elektronik,Tidak Layak
+442,TB71,Tablet PC,1,2023,34,1255000,87,Elektronik,Tidak Layak
+443,TB72,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+444,TB73,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+445,TB74,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+446,TB75,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+447,TB76,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+448,TB77,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+449,TB78,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+450,TB79,Tablet PC,1,2023,22,1255000,87,Elektronik,Tidak Layak
+451,TB80,Tablet PC,1,2023,22,1255000,87,Elektronik,Tidak Layak
+452,TB81,Tablet PC,1,2023,22,1255000,87,Elektronik,Tidak Layak
+453,TB82,Tablet PC,1,2023,22,1255000,87,Elektronik,Tidak Layak
+454,TB83,Tablet PC,1,2023,22,1255000,87,Elektronik,Tidak Layak
+455,TB84,Tablet PC,1,2023,22,1255000,87,Elektronik,Tidak Layak
+456,TB85,Tablet PC,1,2023,10,1255000,87,Elektronik,Tidak Layak
+457,TB86,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+458,TB87,Tablet PC,1,2023,0,1255000,87,Elektronik,Tidak Layak
+459,SS1,Sound System,2,2022,29,775000,3,Elektronik,Layak
+460,SS2,Sound System,2,2022,20,775000,3,Elektronik,Layak
+461,SS3,Sound System,2,2022,19,775000,3,Elektronik,Layak
+462,M1,Mic,1,2023,33,135000,2,Elektronik,Layak
+463,M2,Mic,1,2023,24,135000,2,Elektronik,Layak
+464,KP1,Kabel Panjang,2,2022,28,31000,8,Elektronik,Layak
+465,KP2,Kabel Panjang,2,2022,30,31000,8,Elektronik,Layak
+466,KP3,Kabel Panjang,2,2022,7,31000,8,Elektronik,Layak
+467,KP4,Kabel Panjang,2,2022,58,31000,8,Elektronik,Layak
+468,KP5,Kabel Panjang,2,2022,1,31000,8,Elektronik,Layak
+469,KP6,Kabel Panjang,2,2022,8,31000,8,Elektronik,Layak
+470,KP7,Kabel Panjang,2,2022,100,31000,8,Elektronik,Layak
+471,KP8,Kabel Panjang,2,2022,109,31000,8,Elektronik,Layak
+472,KHDMI1,Kabel HDMI,2,2022,27,52000,9,Elektronik,Layak
+473,KHDMI2,Kabel HDMI,2,2022,127,52000,9,Elektronik,Layak
+474,KHDMI3,Kabel HDMI,2,2022,348,52000,9,Elektronik,Layak
+475,KHDMI4,Kabel HDMI,2,2022,32,160000,9,Elektronik,Layak
+476,KHDMI5,Kabel HDMI,2,2022,215,160000,9,Elektronik,Layak
+477,KHDMI6,Kabel HDMI,2,2022,199,160000,9,Elektronik,Layak
+478,KHDMI7,Kabel HDMI,2,2022,98,160000,9,Elektronik,Layak
+479,KHDMI8,Kabel HDMI,2,2022,54,52000,9,Elektronik,Layak
+480,KHDMI9,Kabel HDMI,2,2022,67,52000,9,Elektronik,Layak
+481,SMT1,Smart TV,2,2022,30,38000000,10,Elektronik,Tidak Layak
+482,SMT2,Smart TV,2,2022,20,38000000,10,Elektronik,Tidak Layak
+483,SMT3,Smart TV,2,2022,10,38000000,10,Elektronik,Tidak Layak
+484,SMT4,Smart TV,2,2022,190,38000000,10,Elektronik,Layak
+485,SMT5,Smart TV,2,2022,22,38000000,10,Elektronik,Tidak Layak
+486,SMT6,Smart TV,2,2022,9,38000000,10,Elektronik,Tidak Layak
+487,SMT7,Smart TV,2,2022,176,38000000,10,Elektronik,Layak
+488,SMT8,Smart TV,2,2022,45,38000000,10,Elektronik,Tidak Layak
+489,SMT9,Smart TV,2,2022,11,38000000,10,Elektronik,Tidak Layak
+490,SMT10,Smart TV,2,2022,9,38000000,10,Elektronik,Tidak Layak
+491,PRG1,Piring Besar,1,2023,2,107000,12,Furnitur,Layak
+492,PRG2,Piring Besar,1,2023,33,107000,12,Furnitur,Layak
+493,PRG3,Piring Besar,1,2023,56,107000,12,Furnitur,Layak
+494,PRG4,Piring Besar,1,2023,1,107000,12,Furnitur,Layak
+495,PRG5,Piring Besar,1,2023,21,107000,12,Furnitur,Layak
+496,PRG6,Piring Besar,1,2023,98,107000,12,Furnitur,Layak
+497,PRG7,Piring Besar,1,2023,3,107000,12,Furnitur,Layak
+498,PRG8,Piring Besar,1,2023,13,107000,12,Furnitur,Layak
+499,PRG9,Piring Besar,1,2023,12,107000,12,Furnitur,Layak
+500,PRG10,Piring Besar,1,2023,2,107000,12,Furnitur,Layak
+501,PRG11,Piring Besar,1,2023,8,107000,12,Furnitur,Layak
+501,PRG12,Piring Besar,1,2023,9,107000,12,Furnitur,Layak
+502,BSR1,Bosara,2,2022,10,135000,12,Furnitur,Layak
+503,BSR2,Bosara,2,2022,31,135000,12,Furnitur,Layak
+504,BSR3,Bosara,2,2022,2,135000,12,Furnitur,Layak
+505,BSR4,Bosara,2,2022,19,135000,12,Furnitur,Layak
+506,BSR5,Bosara,2,2022,40,135000,12,Furnitur,Layak
+507,BSR6,Bosara,2,2022,22,135000,12,Furnitur,Layak
+508,BSR7,Bosara,2,2022,21,135000,12,Furnitur,Layak
+509,BSR8,Bosara,2,2022,12,135000,12,Furnitur,Layak
+510,BSR9,Bosara,2,2022,14,135000,12,Furnitur,Layak
+511,BSR10,Bosara,2,2022,10,135000,12,Furnitur,Layak
+512,BSR11,Bosara,2,2022,10,135000,12,Furnitur,Layak
+513,BSR12,Bosara,2,2022,16,135000,12,Furnitur,Layak

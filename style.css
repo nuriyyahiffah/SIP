@@ -1,0 +1,75 @@
+
+    body {
+        background-color: #1C2E4A; /* Dark Blue */
+        color: #BDC4D4; /* Light Grayish Blue */
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: #52677D; /* Muted Blue */
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #BDC4D4; /* Light Grayish Blue */
+        text-align: center;
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+    }
+
+    .input-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #BDC4D4; /* Light Grayish Blue */
+        border-radius: 4px;
+        background-color: #52677D; /* Muted Blue */
+        color: #BDC4D4; /* Light Grayish Blue */
+    }
+
+    .input-group input:focus {
+        border-color: #1C2E4A; /* Dark Blue */
+        outline: none;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #BDC4D4; /* Light Grayish Blue */
+        color: #1C2E4A; /* Dark Blue */
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #52677D; /* Muted Blue */
+    }
+
+    p {
+        text-align: center;
+    }
+
+    p a {
+        color: #BDC4D4; /* Light Grayish Blue */
+        text-decoration: none;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+    }
+
+    #success-message {
+        color: green;
+        text-align: center;
+    }
+
+    #error-message {
+        color: red;
+        text-align: center;
+    }

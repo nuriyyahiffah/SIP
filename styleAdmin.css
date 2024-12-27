@@ -1,0 +1,67 @@
+.product-list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.product-list th, .product-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-list th {
+    background-color: #f8f9fa;  /* Perbaiki penulisan warna */
+    padding: 10px 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.status-tersedia {
+    color: green;
+}
+
+.status-dipinjam {
+    color: blue;
+}
+
+.status-rusak {
+    color: red;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+.btn {
+    display: inline-block;        /* Agar tombol tampil sebagai blok inline */
+    padding: 8px 16px;            /* Memberikan padding dalam tombol */
+    font-size: 14px;              /* Ukuran font tombol */
+    font-weight: bold;            /* Menebalkan teks tombol */
+    text-align: center;           /* Menyelaraskan teks di tengah */
+    border-radius: 4px;           /* Memberikan border-radius agar sudut tombol melengkung */
+    cursor: pointer;             /* Menambahkan kursor pointer saat dihover */
+    text-decoration: none;        /* Menghilangkan garis bawah jika tombol adalah link */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animasi saat hover */
+}
+
+/* Efek hover tombol */
+.btn:hover {
+    background-color: #e2e6ea;   /* Warna latar belakang saat hover */
+    transform: scale(1.05);       /* Efek zoom in sedikit */
+}
+
+/* Efek aktif tombol */
+.btn:active {
+    transform: scale(0.98);       /* Efek zoom out sedikit saat tombol ditekan */
+}
+
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
