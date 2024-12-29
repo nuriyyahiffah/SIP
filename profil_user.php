@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 
 $nim = $_SESSION['nim'];
-$sql = "SELECT nama_lengkap, nim, email, nomor_telepon, foto_profil FROM users WHERE nim = '$nim'";
+$sql = "SELECT nama_lengkap, nim, email, nomor_telepon, foto_profil FROM userss WHERE nim = '$nim'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $file_tmp = $_FILES['profile-image']['tmp_name'];
         move_uploaded_file($file_tmp, "uploads/" . $file_name);
 
-        $sql_update = "UPDATE users SET foto_profil='$file_name' WHERE nim='$nim'";
+        $sql_update = "UPDATE userss SET foto_profil='$file_name' WHERE nim='$nim'";
         if ($conn->query($sql_update) === TRUE) {
             $user['foto_profil'] = $file_name;
         } else {

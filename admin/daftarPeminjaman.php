@@ -6,72 +6,92 @@ include('get_data_peminjaman2.php');
 define('ADMIN_PENGGUNA', 'Admin Pengguna');
 define('ADMIN_BARANG', 'Admin Barang');
 
+// Cek autentikasi admin
 if (!isset($_SESSION['username']) || 
     ($_SESSION['jenis_admin'] !== ADMIN_PENGGUNA && $_SESSION['jenis_admin'] !== ADMIN_BARANG)) {
     header("Location: loginAdmin.php");
     exit;
 }
 
+// Fungsi untuk menyetujui peminjaman
 if (isset($_GET['action'], $_GET['id']) && $_GET['action'] === 'approve') {
     $id = intval($_GET['id']);
-    $stmt1 = $conn->prepare("UPDATE peminjaman1 SET status = 'Disetujui' WHERE id = ?");
+    
+    // Pastikan peminjaman di kedua tabel diperbarui
+    $stmt1 = $conn->prepare("UPDATE peminjaman11 SET status = 'approved' WHERE id = ?");
     $stmt1->bind_param("i", $id);
     $stmt1->execute();
     $stmt1->close();
-    
-    $stmt2 = $conn->prepare("UPDATE peminjaman2 SET status = 'Disetujui' WHERE id = ?");
+
+    $stmt2 = $conn->prepare("UPDATE peminjaman22 SET status = 'approved' WHERE id = ?");
     $stmt2->bind_param("i", $id);
     $stmt2->execute();
     $stmt2->close();
 
-    $stmt = $conn->prepare("INSERT INTO admin_logs (username, aksi, tanggal, status, description, created_at) 
-    VALUES (?, ?, NOW(), 'Disetujui', 'Permintaan peminjaman disetujui', NOW())");
-    $stmt->bind_param("ss", $_SESSION['username'], $_GET['action']);
+    // Menambahkan log aksi
+    $stmt = $conn->prepare("INSERT INTO admin_logss (username, aksi, tanggal, status, description, created_at) 
+                            VALUES (?, 'approve', NOW(), 'Disetujui', 'Permintaan peminjaman disetujui', NOW())");
+    $stmt->bind_param("s", $_SESSION['username']);
     $stmt->execute();
     $stmt->close();
 
+    // Redirect setelah aksi selesai
     header("Location: daftarPeminjaman.php");
     exit;
 }
 
+// Fungsi untuk menolak peminjaman
 if (isset($_GET['action'], $_GET['id']) && $_GET['action'] === 'reject') {
     $id = intval($_GET['id']);
     $barang_tidak_layak = false;
 
-     $stmt = $conn->prepare("SELECT status_kelayakan FROM daftarbarang WHERE KODEBARANG = (SELECT kode_barang FROM peminjaman1 WHERE id = ? LIMIT 1)");
-     $stmt->bind_param("i", $id);
-     $stmt->execute();
-     $result = $stmt->get_result();
-     if ($result->num_rows > 0) {
-         $row = $result->fetch_assoc();
-         if ($row['status_kelayakan'] == 'Tidak Layak') {
-             $barang_tidak_layak = true;
-         }
-     }
-     $stmt->close();
-
-   if ($barang_tidak_layak) {
-    $stmt1 = $conn->prepare("UPDATE peminjaman1 SET status = 'Ditolak' WHERE id = ?");
-    $stmt1->bind_param("i", $id);
-    $stmt1->execute();
-    $stmt1->close();
-} else {
-    $stmt1 = $conn->prepare("UPDATE peminjaman2 SET status = 'Ditolak' WHERE id = ?");
-    $stmt1->bind_param("i", $id);
-    $stmt1->execute();
-    $stmt1->close();
-}
-
-    $stmt = $conn->prepare("INSERT INTO admin_logs (username, aksi, tanggal, status, description, created_at) 
-    VALUES (?, ?, NOW(), 'Ditolak', 'Permintaan peminjaman ditolak', NOW())");
-    $stmt->bind_param("ss", $_SESSION['username'], $_GET['action']);
+    // Cek kelayakan barang
+    $stmt = $conn->prepare("SELECT status_kelayakan FROM daftarbarangg WHERE KODEBARANG = (SELECT kode_barang FROM peminjaman11 WHERE id = ? LIMIT 1)");
+    $stmt->bind_param("i", $id);
     $stmt->execute();
+    $result = $stmt->get_result();
+    if ($result->num_rows > 0) {
+        $row = $result->fetch_assoc();
+        if ($row['status_kelayakan'] == 'Tidak Layak') {
+            $barang_tidak_layak = true;
+        }
+    }
     $stmt->close();
 
+    if ($barang_tidak_layak) {
+        // Barang tidak layak, update status menjadi 'rejected' dan beri notifikasi
+        $stmt1 = $conn->prepare("UPDATE peminjaman11 SET status = 'rejected' WHERE id = ?");
+        $stmt1->bind_param("i", $id);
+        $stmt1->execute();
+        $stmt1->close();
+
+        // Log aksi penolakan
+        $stmt = $conn->prepare("INSERT INTO admin_logss (username, aksi, tanggal, status, description, created_at) 
+                                VALUES (?, 'reject', NOW(), 'Ditolak', 'Barang tidak layak untuk dipinjam', NOW())");
+        $stmt->bind_param("s", $_SESSION['username']);
+        $stmt->execute();
+        $stmt->close();
+    } else {
+        // Barang layak, lanjutkan penolakan
+        $stmt1 = $conn->prepare("UPDATE peminjaman22 SET status = 'rejected' WHERE id = ?");
+        $stmt1->bind_param("i", $id);
+        $stmt1->execute();
+        $stmt1->close();
+
+        // Log aksi penolakan
+        $stmt = $conn->prepare("INSERT INTO admin_logss (username, aksi, tanggal, status, description, created_at) 
+                                VALUES (?, 'reject', NOW(), 'Ditolak', 'Permintaan peminjaman ditolak', NOW())");
+        $stmt->bind_param("s", $_SESSION['username']);
+        $stmt->execute();
+        $stmt->close();
+    }
+
+    // Redirect setelah aksi selesai
     header("Location: daftarPeminjaman.php");
     exit;
 }
 
+// Ambil data peminjaman
 $result = getPeminjamanData($conn);
 if (!$result) {
     die("Query gagal: " . $conn->error);
@@ -88,7 +108,7 @@ if (!$result) {
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color:rgb(210, 210, 210);
+            background-color: rgb(210, 210, 210);
             color: #1C2E4A;
             margin: 0;
             padding: 0;
@@ -175,7 +195,7 @@ if (!$result) {
                     <th>Tanggal Peminjaman</th>
                     <th>Tanggal Pengembalian</th>
                     <th>Status</th>
-                    <th></th>
+                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
@@ -183,10 +203,9 @@ if (!$result) {
                 $no = 1;
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
-                    $status_kelayakan = $row['status_kelayakan'];
-                    $barang_tidak_layak = ($status_kelayakan == 'Tidak Layak');
-                    ?>
-
+                        $status_kelayakan = $row['status_kelayakan'];
+                        $barang_tidak_layak = ($status_kelayakan == 'Tidak Layak');
+                        ?>
                         <tr>
                             <td><?= $no++ ?></td>
                             <td><?= htmlspecialchars($row['nama_peminjam']) ?></td>
@@ -198,26 +217,26 @@ if (!$result) {
                             <td><?= htmlspecialchars($row['sampai_tanggal']) ?></td>
                             <td><?= htmlspecialchars($row['status']) ?></td>
                             <td>
-                            <?php if ($barang_tidak_layak): ?>
-                        <span style="color: red;">Barang Tidak Layak</span>
-                        <a href="?action=reject&id=<?= $row['id'] ?>" class="icon-btn" title="Tolak" onclick="return confirm('Barang ini tidak layak dipinjam, apakah Anda yakin ingin menolak permintaan ini?')">
-                            <i class="fas fa-times"></i>
-                        </a>
-                    <?php else: ?>
-                        <a href="?action=approve&id=<?= $row['id'] ?>" class="icon-btn" title="Setujui">
-                            <i class="fas fa-check"></i>
-                        </a>
-                        <a href="?action=reject&id=<?= $row['id'] ?>" class="icon-btn" title="Tolak" onclick="return confirm('Apakah Anda yakin ingin menolak permintaan ini?')">
-                            <i class="fas fa-times"></i>
-                        </a>
-                    <?php endif; ?>
-                </td>
-            </tr>
-            <?php
-        }
-    } else {
-        echo '<tr><td colspan="9" class="text-center">Tidak ada data peminjaman.</td></tr>';
-    }
+                                <?php if ($barang_tidak_layak): ?>
+                                    <span style="color: red;">Barang Tidak Layak</span>
+                                    <a href="?action=reject&id=<?= $row['id'] ?>" class="icon-btn" title="rejected" onclick="return confirm('Barang ini tidak layak dipinjam, apakah Anda yakin ingin menolak permintaan ini?')">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                <?php else: ?>
+                                    <a href="?action=approve&id=<?= $row['id'] ?>" class="icon-btn" title="approved">
+                                        <i class="fas fa-check"></i>
+                                    </a>
+                                    <a href="?action=reject&id=<?= $row['id'] ?>" class="icon-btn" title="rejected" onclick="return confirm('Apakah Anda yakin ingin menolak permintaan ini?')">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                <?php endif; ?>
+                            </td>
+                        </tr>
+                        <?php
+                    }
+                } else {
+                    echo '<tr><td colspan="10">Tidak ada data peminjaman.</td></tr>';
+                }
                 ?>
             </tbody>
         </table>

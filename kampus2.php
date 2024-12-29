@@ -182,8 +182,6 @@ include 'db_connection.php';
                     <th>No</th>
                     <th>Kode Barang</th>
                     <th>Nama Barang</th>
-                    <th>Jumlah</th>
-                    <th>Usia Barang</th>
                     <th>Kategori</th>
                     <th></th>
                 </tr>
@@ -192,7 +190,7 @@ include 'db_connection.php';
                 <?php
                 $search = isset($_GET['search']) ? mysqli_real_escape_string($conn, $_GET['search']) : '';
 
-                $query = "SELECT * FROM daftarbarang WHERE NAMABARANG LIKE '%$search%'";
+                $query = "SELECT * FROM daftarbarangg WHERE NAMABARANG LIKE '%$search%'";
 
                 $result = mysqli_query($conn, $query);
 
@@ -203,8 +201,6 @@ include 'db_connection.php';
                             <td>{$no}</td>
                              <td>{$row['KODEBARANG']}</td>
                             <td>{$row['NAMABARANG']}</td>
-                            <td>{$row['TOTALBARANG']}</td>
-                            <td>{$row['USIABARANG']}</td>
                             <td>{$row['KATEGORI']}</td>
                             <td><a href='peminjaman2.php?KODEBARANG={$row['KODEBARANG']}' class='btn-pinjam'>Pinjam</a></td>
                         </tr>";

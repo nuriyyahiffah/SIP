@@ -8,7 +8,7 @@ if (!isset($_SESSION['username']) || $_SESSION['jenis_admin'] !== 'Admin Barang'
 
 include ('../db_connection.php');
 
-$query = "SELECT NO, KODEBARANG, NAMABARANG, USIABARANG, TAHUNMASUK, JUMLAHPEMAKAIAN, HARGA, TOTALBARANG, KATEGORI, status_kelayakan FROM daftarbarang";
+$query = "SELECT NO, KODEBARANG, NAMABARANG, USIABARANG, TAHUNMASUK, JUMLAHPEMAKAIAN, HARGA, TOTALBARANG, KATEGORI, status_kelayakan FROM daftarbarangg";
 $result = mysqli_query($conn, $query);
 
 ?>

@@ -6,7 +6,7 @@ if ($conn->connect_error) {
 }
 
 // Query untuk mendapatkan data pengguna
-$query = "SELECT * FROM users"; // Pastikan nama tabel sesuai
+$query = "SELECT * FROM userss"; // Pastikan nama tabel sesuai
 $result = $conn->query($query);
 
 if (!$result) {

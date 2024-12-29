@@ -13,13 +13,13 @@ if ($conn->connect_error) {
 }
 
 $query = "
-    SELECT 'peminjaman1' AS sumber, nama_peminjam, kode_barang, barang AS nama_barang 
+    SELECT 'peminjaman11' AS sumber, nama_peminjam, kode_barang, barang AS nama_barang 
     FROM peminjaman1 
     WHERE status = 'Disetujui'
     UNION ALL
-    SELECT 'peminjaman2' AS sumber, nama_peminjam, kode_barang, barang AS nama_barang 
+    SELECT 'peminjaman22' AS sumber, nama_peminjam, kode_barang, barang AS nama_barang 
     FROM peminjaman2 
-    WHERE status = 'Disetujui'
+    WHERE status = 'approved'
     ORDER BY kode_barang, nama_peminjam
 ";
 

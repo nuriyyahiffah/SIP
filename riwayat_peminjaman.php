@@ -16,7 +16,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM peminjaman1 WHERE nama_peminjam = ? UNION SELECT * FROM peminjaman2 WHERE nama_peminjam = ?";
+$sql = "SELECT * FROM peminjaman11 WHERE nama_peminjam = ? UNION SELECT * FROM peminjaman22 WHERE nama_peminjam = ?";
 if ($stmt = $conn->prepare($sql)) {
     $stmt->bind_param("ss", $_SESSION['nama_lengkap'], $_SESSION['nama_lengkap']);
     $stmt->execute();

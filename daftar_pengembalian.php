@@ -17,7 +17,7 @@ if (!isset($_SESSION['jenis_admin']) || $_SESSION['jenis_admin'] != 'Admin Baran
     exit;
 }
 
-$sql = "SELECT * FROM peminjaman1 WHERE status = 'Dikembalikan' UNION SELECT * FROM peminjaman2 WHERE status = 'Dikembalikan' ORDER BY tanggal_pengembalian DESC";
+$sql = "SELECT * FROM peminjaman11 WHERE status = 'Dikembalikan' UNION SELECT * FROM peminjaman22 WHERE status = 'Dikembalikan' ORDER BY tanggal_pengembalian DESC";
 $result = $conn->query($sql);
 ?>
 

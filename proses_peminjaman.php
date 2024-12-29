@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $akhir_jam = $_POST['akhir_jam'];
     $status = 'Dipinjam';
 
-    $query_peminjaman1 = "INSERT INTO peminjaman1 (id, barang, nama_peminjam, keperluan, ruang, mulai_tanggal, sampai_tanggal, mulai_jam, akhir_jam, status) 
+    $query_peminjaman1 = "INSERT INTO peminjaman11 (id, barang, nama_peminjam, keperluan, ruang, mulai_tanggal, sampai_tanggal, mulai_jam, akhir_jam, status) 
                           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
     if ($stmt_peminjaman1 = $conn->prepare($query_peminjaman1)) {
         $stmt_peminjaman1->bind_param("isssssssss", $id, $barang, $nama_peminjam, $keperluan, $ruang, $mulai_tanggal, $sampai_tanggal, $mulai_jam, $akhir_jam, $status);
@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo "Error preparing query untuk peminjaman1: " . $conn->error;
     }
 
-    $query_peminjaman2 = "INSERT INTO peminjaman2 (id, barang, nama_peminjam, keperluan, ruang, mulai_tanggal, sampai_tanggal, mulai_jam, akhir_jam, status) 
+    $query_peminjaman2 = "INSERT INTO peminjaman22 (id, barang, nama_peminjam, keperluan, ruang, mulai_tanggal, sampai_tanggal, mulai_jam, akhir_jam, status) 
                           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
     if ($stmt_peminjaman2 = $conn->prepare($query_peminjaman2)) {
         $stmt_peminjaman2->bind_param("isssssssss", $id, $barang, $nama_peminjam, $keperluan, $ruang, $mulai_tanggal, $sampai_tanggal, $mulai_jam, $akhir_jam, $status);

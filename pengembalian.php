@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['id']) && isset($_POST[
     $table = htmlspecialchars($_POST['table']);
 
     // Validasi nama tabel yang diperbolehkan
-    if (!in_array($table, ['peminjaman1', 'peminjaman2'])) {
+    if (!in_array($table, ['peminjaman11', 'peminjaman22'])) {
         echo "<script>
                 alert('Tabel tidak valid.');
                 window.location.href = 'barang_yang_dipinjam.php';
@@ -39,6 +39,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['id']) && isset($_POST[
                 alert('ID tidak valid.');
                 window.location.href = 'barang_yang_dipinjam.php';
               </script>";
+              var_dump($_POST['table']);
+
         exit;
     }
 

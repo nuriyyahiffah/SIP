@@ -1,11 +1,13 @@
 <?php
 session_start();
+
+// Cek apakah session 'jenis_admin' sudah diset
 if (!isset($_SESSION['jenis_admin'])) {
     echo "Sesi jenis_admin tidak diatur. Harap login ulang.";
     exit;
 }
 
-
+// Koneksi ke database
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -16,18 +18,21 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-if (!isset($_SESSION['jenis_admin']) || $_SESSION['jenis_admin'] != 'Admin Pengguna') {
+// Cek apakah jenis_admin adalah 'Admin Pengguna'
+if ($_SESSION['jenis_admin'] != 'Admin Pengguna') {
     echo "Akses ditolak. Hanya admin yang bisa mengakses halaman ini.";
     exit;
 }
 
-$allowed_tables = ['peminjaman1', 'peminjaman2'];
+// Query untuk mengambil data pengembalian barang
+$allowed_tables = ['peminjaman11', 'peminjaman22'];
 $query_parts = [];
 foreach ($allowed_tables as $table) {
     $query_parts[] = "(SELECT id, nama_peminjam, barang, tanggal_pengembalian, foto_pengembalian FROM $table WHERE status = 'Dikembalikan')";
 }
 $sql = implode(" UNION ", $query_parts) . " ORDER BY tanggal_pengembalian DESC";
 
+// Eksekusi query
 $result = $conn->query($sql);
 ?>
 
@@ -50,7 +55,7 @@ $result = $conn->query($sql);
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            color: #333;
+            color: #000000;
             padding: 20px;
         }
 
@@ -58,7 +63,20 @@ $result = $conn->query($sql);
             font-size: 24px;
             margin-bottom: 20px;
             text-align: center;
+            color: #000000;
+        }
+
+        .btn-kembali {
             color: #333;
+            font-size: 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .btn-kembali:hover {
+            color: #007bff;
+            transform: scale(1.1);
         }
 
         table {
@@ -67,12 +85,12 @@ $result = $conn->query($sql);
             margin-top: 20px;
             background-color: #fff;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgb(54, 54, 54);
         }
 
         th {
             background-color: #333;
-            color: #fff;
+            color:rgb(255, 255, 255);
             padding: 12px 15px;
             text-align: left;
             font-size: 16px;
@@ -118,6 +136,10 @@ $result = $conn->query($sql);
             }
         }
     </style>
+
+    <!-- Back Button -->
+    <a href="adminPengguna.php" class="btn-kembali"><i class="fas fa-arrow-left"></i> Kembali</a>
+
     <h1>Daftar Pengembalian Barang</h1>
     <table>
         <thead>
@@ -132,6 +154,7 @@ $result = $conn->query($sql);
         </thead>
         <tbody>
             <?php
+            // Menampilkan data hasil query
             if ($result && $result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
                     echo "<tr>";

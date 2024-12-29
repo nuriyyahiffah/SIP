@@ -15,12 +15,12 @@ if ($conn->connect_error) {
 $data = [];
 
 $query = "
-    SELECT 'peminjaman1' AS id, nama_peminjam, kode_barang, barang AS nama_barang, created_at
-    FROM peminjaman1 
+    SELECT 'peminjaman11' AS id, nama_peminjam, kode_barang, barang AS nama_barang, created_at
+    FROM peminjaman11 
     WHERE status = 'Disetujui'
     UNION ALL
-    SELECT 'peminjaman2' AS id, nama_peminjam, kode_barang, barang AS nama_barang, created_at
-    FROM peminjaman2 
+    SELECT 'peminjaman22' AS id, nama_peminjam, kode_barang, barang AS nama_barang, created_at
+    FROM peminjaman22 
     WHERE status = 'Disetujui'
     ORDER BY created_at DESC
 ";
@@ -31,7 +31,7 @@ if ($result && $result->num_rows > 0) {
         $data[] = $row;
 
         $kode_barang = $row['kode_barang'];
-        $query_update = "UPDATE daftarbarang SET TOTALBARANG = TOTALBARANG - 1 WHERE KODEBARANG = ?";
+        $query_update = "UPDATE daftarbarangg SET TOTALBARANG = TOTALBARANG - 1 WHERE KODEBARANG = ?";
         $stmt = $conn->prepare($query_update);
         $stmt->bind_param("s", $KODEBARANG);
         $stmt->execute();

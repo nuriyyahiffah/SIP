@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['id']) && isset($_POST[
     $table = $_POST['table'];
     $keterangan_pengembalian = isset($_POST['pengembalian']) ? $_POST['pengembalian'] : ''; 
 
-    $allowed_tables = ['peminjaman1', 'peminjaman2'];
+    $allowed_tables = ['peminjaman11', 'peminjaman22'];
     if (in_array($table, $allowed_tables)) {
         $sql = "SELECT * FROM $table WHERE id = ?";
         $stmt = $conn->prepare($sql);

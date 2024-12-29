@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
                 // Query untuk memasukkan data admin ke tabel adminbaru
-                $query = "INSERT INTO adminbaru (username, password, jenis_admin, created_at) 
+                $query = "INSERT INTO adminbaruu (username, password, jenis_admin, created_at) 
                           VALUES (:username, :password, :jenis_admin, NOW())";
                 $stmt = $pdo->prepare($query);
 

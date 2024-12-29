@@ -15,9 +15,9 @@ if ($conn->connect_error) {
 $query = "
     SELECT COUNT(*) AS total_disetujui
     FROM (
-        SELECT id FROM peminjaman1 WHERE status = 'Disetujui'
+        SELECT id FROM peminjaman11 WHERE status = 'approved'
         UNION ALL
-        SELECT id FROM peminjaman2 WHERE status = 'Disetujui'
+        SELECT id FROM peminjaman22 WHERE status = 'approved'
     ) AS peminjaman
 ";
 
@@ -218,7 +218,7 @@ function loadPeminjaman() {
                     <td>${peminjaman.sampai_tanggal}</td>
                     <td>${peminjaman.status}</td>
                     <td>
-                        <a href="editPeminjaman.php?id=${peminjaman.id}" class="icon-btn" title="Edit">
+                        <a href="editBarang1.php?id=${peminjaman.id}" class="icon-btn" title="Edit">
                             <i class="fas fa-pen-to-square"></i>
                         </a>
                         <a href="deletePeminjaman.php?id=${peminjaman.id}" class="icon-btn" title="Hapus" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">

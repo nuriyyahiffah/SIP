@@ -3,12 +3,12 @@ include('../db_connection.php');
 
 $query = "
     SELECT p.kode_barang, b.NAMABARANG, p.nama_peminjam, p.ruang, p.mulai_tanggal, p.sampai_tanggal, p.status
-    FROM peminjaman1 p
-    JOIN daftarbarang b ON p.kode_barang = b.KODEBARANG
+    FROM peminjaman11 p
+    JOIN daftarbarangg b ON p.kode_barang = b.KODEBARANG
     UNION ALL
     SELECT p.kode_barang, b.NAMABARANG,  p.nama_peminjam, p.ruang, p.mulai_tanggal, p.sampai_tanggal, p.status
-    FROM peminjaman2 p
-    JOIN daftarbarang b ON p.kode_barang = b.KODEBARANG
+    FROM peminjaman22 p
+    JOIN daftarbarangg b ON p.kode_barang = b.KODEBARANG
 ";
 
 $result = mysqli_query($conn, $query);

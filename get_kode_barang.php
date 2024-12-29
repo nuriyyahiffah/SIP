@@ -3,7 +3,7 @@ require_once 'db_connection.php';
 
 if (isset($_GET['nama_barang'])) {
     $nama_barang = $_GET['nama_barang'];
-    $query = "SELECT KODEBARANG, status_kelayakan AS status FROM daftarbarang WHERE NAMABARANG = ?";
+    $query = "SELECT KODEBARANG, status_kelayakan AS status FROM daftarbarangg WHERE NAMABARANG = ?";
     $stmt = mysqli_prepare($conn, $query);
     mysqli_stmt_bind_param($stmt, "s", $nama_barang);
     mysqli_stmt_execute($stmt);

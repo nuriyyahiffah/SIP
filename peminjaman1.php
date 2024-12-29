@@ -129,7 +129,7 @@ $userName = $_SESSION['nama_lengkap'] ?? '';
             $kode_barang = filter_input(INPUT_GET, 'KODEBARANG', FILTER_SANITIZE_STRING);
 
             // Ambil nama barang dari database
-            $stmt = $conn->prepare("SELECT NAMABARANG FROM daftarbarang WHERE KODEBARANG = ?");
+            $stmt = $conn->prepare("SELECT NAMABARANG FROM daftarbarangg WHERE KODEBARANG = ?");
             $stmt->bind_param("s", $kode_barang);
             $stmt->execute();
             $result = $stmt->get_result();
@@ -159,7 +159,7 @@ $userName = $_SESSION['nama_lengkap'] ?? '';
 
             // Masukkan data ke database
             $stmt = $conn->prepare(
-                "INSERT INTO peminjaman1 (barang, nama_peminjam, keperluan, kode_barang, ruang, mulai_tanggal, sampai_tanggal, mulai_jam, akhir_jam)
+                "INSERT INTO peminjaman11 (barang, nama_peminjam, keperluan, kode_barang, ruang, mulai_tanggal, sampai_tanggal, mulai_jam, akhir_jam)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
             );
             $stmt->bind_param(

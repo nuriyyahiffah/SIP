@@ -8,12 +8,12 @@ if (!isset($_SESSION['jenis_admin']) || $_SESSION['jenis_admin'] != 'Admin Baran
 if (isset($_GET['id'])) {
     $id = intval($_GET['id']);
 
-    $stmt1 = $conn->prepare("DELETE FROM peminjaman1 WHERE id = ?");
+    $stmt1 = $conn->prepare("DELETE FROM peminjaman11 WHERE id = ?");
     $stmt1->bind_param("i", $id);
     $stmt1->execute();
     $stmt1->close();
 
-    $stmt2 = $conn->prepare("DELETE FROM peminjaman2 WHERE id = ?");
+    $stmt2 = $conn->prepare("DELETE FROM peminjaman22 WHERE id = ?");
     $stmt2->bind_param("i", $id);
     $stmt2->execute();
     $stmt2->close();

@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Simpan ke database (contoh koneksi dan query sederhana)
-    $conn = new mysqli('localhost', 'root', '', 'db_sip');
+    $conn = new mysqli('localhost', 'root', '', 'projek_ptc');
 
     if ($conn->connect_error) {
         die("Koneksi database gagal: " . $conn->connect_error);

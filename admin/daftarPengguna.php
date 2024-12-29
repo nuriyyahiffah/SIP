@@ -14,7 +14,7 @@ require('../db_connection.php'); // Sesuaikan dengan lokasi file koneksi
 // Query untuk mendapatkan semua data pengguna
 $sql = "
     SELECT u.id, u.nama_lengkap, u.nim, u.email, u.nomor_telepon
-    FROM users u
+    FROM userss u
     ORDER BY u.id DESC
 ";
 

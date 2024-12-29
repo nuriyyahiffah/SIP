@@ -9,7 +9,7 @@ if (!isset($_SESSION['username']) || $_SESSION['jenis_admin'] != 'Admin Barang')
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
-    $sql = "DELETE FROM data_barang WHERE id = ?";
+    $sql = "DELETE FROM datftarbarangg WHERE id = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("i", $id);
 

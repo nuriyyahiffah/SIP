@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $password = htmlspecialchars(trim($_POST['password']));
 
         // Persiapkan pernyataan SQL untuk mencegah SQL Injection
-        $stmt = $conn->prepare("SELECT * FROM users WHERE nim = ?");
+        $stmt = $conn->prepare("SELECT * FROM userss WHERE nim = ?");
         $stmt->bind_param("s", $nim);
         $stmt->execute();
         $result = $stmt->get_result();

@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $status_kelayakan = prediksiKelayakan($USIABARANG, $JUMLAHPEMAKAIAN, $HARGA, $JUMLAHPEMAKAIAN, $KATEGORI);
 
         // Menyimpan data barang ke database
-        $stmt = $conn->prepare("INSERT INTO daftarbarang (NAMABARANG, KODEBARANG, JUMLAHPEMAKAIAN, USIABARANG, HARGA, KATEGORI, status_kelayakan) 
+        $stmt = $conn->prepare("INSERT INTO daftarbarangg (NAMABARANG, KODEBARANG, JUMLAHPEMAKAIAN, USIABARANG, HARGA, KATEGORI, status_kelayakan) 
                                 VALUES (?, ?, ?, ?, ?, ?, ?)");
         $stmt->bind_param("ssiiiss", $NAMABARANG, $KODEBARANG, $JUMLAHPEMAKAIAN, $USIABARANG, $HARGA, $KATEGORI, $status_kelayakan);
 

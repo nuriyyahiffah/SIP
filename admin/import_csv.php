@@ -30,7 +30,7 @@ while (($data = fgetcsv($csvFile, 1000, ",")) !== FALSE) {
     $KATEGORI = $data[8];
     $status_kelayakan = $data[9];
 
-    $sql = "INSERT INTO daftarbarang (NO, KODEBARANG, NAMABARANG, USIABARANG, TAHUNMASUK, JUMLAHPEMAKAIAN, HARGA, TOTALBARANG, KATEGORI, status_kelayakan) 
+    $sql = "INSERT INTO daftarbarangg (NO, KODEBARANG, NAMABARANG, USIABARANG, TAHUNMASUK, JUMLAHPEMAKAIAN, HARGA, TOTALBARANG, KATEGORI, status_kelayakan) 
             VALUES ('$NO', '$KODEBARANG', '$NAMABARANG', '$USIABARANG', '$TAHUNMASUK', '$JUMLAHPEMAKAIAN', '$HARGA', '$TOTALBARANG', '$KATEGORI', '$status_kelayakan')";
 
     if ($conn->query($sql) === TRUE) {

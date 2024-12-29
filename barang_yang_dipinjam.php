@@ -20,14 +20,14 @@ if (isset($_SESSION['nama_lengkap'])) {
 
 // Query data from both borrowing tables
 $sql = "
-    SELECT p1.*, b.NAMABARANG, 'peminjaman1' AS table_name 
-    FROM peminjaman1 p1
-    JOIN daftarbarang b ON p1.kode_barang = b.KODEBARANG
+    SELECT p1.*, b.NAMABARANG, 'peminjaman11' AS table_name 
+    FROM peminjaman11 p1
+    JOIN daftarbarangg b ON p1.kode_barang = b.KODEBARANG
     WHERE p1.nama_peminjam = ?
     UNION
-    SELECT p2.*, b.NAMABARANG, 'peminjaman2' AS table_name 
-    FROM peminjaman2 p2
-    JOIN daftarbarang b ON p2.kode_barang = b.KODEBARANG
+    SELECT p2.*, b.NAMABARANG, 'peminjaman22' AS table_name 
+    FROM peminjaman22 p2
+    JOIN daftarbarangg b ON p2.kode_barang = b.KODEBARANG
     WHERE p2.nama_peminjam = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("ss", $user_name, $user_name);
@@ -240,8 +240,8 @@ footer {
                     $status = $row['status'] ? $row['status'] : 'Menunggu Persetujuan';
                 
                     // Menampilkan status "Disetujui" jika status peminjaman telah disetujui
-                    if ($status == 'Disetujui') {
-                        $status = 'Disetujui';
+                    if ($status == 'approved') {
+                        $status = 'approved';
                     } elseif ($status == 'Dikembalikan') {
                         $status = 'Dikembalikan';  // Tambahkan kondisi ini
                     } else {
@@ -262,7 +262,7 @@ footer {
                     <td>";
 
             // Jika status peminjaman adalah 'Disetujui' dan barang belum dikembalikan
-            if ($status == 'Disetujui') {
+            if ($status == 'approved') {
                 echo "<form method='POST' action='pengembalian.php'>
                         <input type='hidden' name='id' value='" . $row['id'] . "'>
                         <input type='hidden' name='table' value='" . $row['table_name'] . "'>

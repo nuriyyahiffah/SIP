@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     ];
 
     if (array_key_exists($username, $valid_admins) && $valid_admins[$username] === $password) {
-        $query = "SELECT * FROM adminbaru WHERE username = :username AND jenis_admin = :jenis_admin";
+        $query = "SELECT * FROM adminbaruu WHERE username = :username AND jenis_admin = :jenis_admin";
         $stmt = $pdo->prepare($query);
         $stmt->execute([':username' => $username, ':jenis_admin' => $jenis_admin]);
 
